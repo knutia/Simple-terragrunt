@@ -1,11 +1,11 @@
 variable "resource_group_name" {
   type        = string
   default     = "pca-no-parram"
-  description = "Name for the resource group for all resources."
+  description = "The name which should be used for this Resource Group."
 }
 
 variable "resource_group_location" {
   type        = string
   default     = "West Europe"
-  description = "Location for the resource group."
-}
+  description = "The azure region where the Resource Group should exist"
+}  
